@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% from "macros/form_field.html" import form_field %}
+
+{% block title %}Create new entry{% endblock %}
+
+{% block content_title %}Create new entry{% endblock %}
+
+{% block content %}
+
+  <form action="{{ url_for('entries.create') }}" class="form form-horizontal" method="post">
+    {% for field in form %}
+      {{ form_field(field) }}
+    {% endfor %}
+    <div class="form-group">
+      <div class="col-sm-offset-3 col-sm-9">
+        <button type="submit" class="btn btn-default">Create</button>
+        <a class="btn" href="{{ url_for('entries.index') }}">Cancel</a>
+      </div>
+    </div>
+  </form>
+
+{% endblock %}
