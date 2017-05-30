@@ -1,28 +1,6 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
-*$py.classSkip to content
-This repository
-Search
-Pull requests
-Issues
-Marketplace
-Gist
- @nahum-smith
- Sign out
- Watch 2,040
-  Star 50,706
-  Fork 21,602 github/gitignore
- Code  Pull requests 140  Projects 0 Insights
-Branch: master Find file Copy pathgitignore/Python.gitignore
-252058e  8 days ago
-@jwg4 jwg4 Consolidate all environments in one section
-59 contributors @arcresu @Metallicow @shiftkey @misaelnieto @pmsosa @svkampen @vltr @matheussl @Lucretiel @hugovk @Harrison-G @ghisvail @EvandroLG @DSIW @toanant @Visgean @nvie @skuschel @sigo @scari @borntyping @roll @rolando @reinout @rayshan @relekang and others
-RawBlameHistory
-100 lines (79 sloc)  1.12 KB
-# Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[cod]
 *$py.class
 
 # C extensions
@@ -119,5 +97,3 @@ ENV/
 
 # mypy
 .mypy_cache/
-Contact GitHub API Training Shop Blog About
-© 2017 GitHub, Inc. Terms Privacy Security Status Help
